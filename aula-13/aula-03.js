@@ -1,8 +1,19 @@
-"use strict" // Modo estrito
-nome = "Bruno";
-console.log('CFB Cursos');
-console.log(nome)
-console.log("Nome: " + nome)
+let num = 40;
+if (num > 10) {
+  console.log("Numeral maior que 10");
+} else if (num > 5) {
+  console.log("Numeral está entre 6 e 10");
+} else {
+  console.log("Numeral menor ou igla a 05");
+}
+console.log("Fim do Programa");
 
 
-// nesse caso deu erro na execução do console.log(), pois a variavel nome não foi definida.
+let energia =  100;
+let clima = 'chovendo';
+
+if(energia > 70 && clima == "sol"){
+  console.log("Vou a Praia")
+}else{
+  console.log("Vou ao cinema")
+}
