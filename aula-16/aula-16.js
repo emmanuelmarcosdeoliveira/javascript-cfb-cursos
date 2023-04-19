@@ -9,10 +9,12 @@ for (let i = 0; i < num.length; i++) {
   console.log(num[i]);
 }
 // FOR OFF
+// RETORNAS OS ELEMNTOS QUE TEMOS DENTRO DA CONDIÇÃO
 for (o of objs) {
   console.log((o.innerHTML = "Cursos"));
 }
 // FOR IN
+// RETORNA OS INDICES DENTRO DESSA COLEÇÃO
 for (o in objs) {
   console.log(objs[o].innerHTML);
   console.log(o);

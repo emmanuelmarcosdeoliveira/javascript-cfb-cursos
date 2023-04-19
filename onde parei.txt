@@ -1,2 +1,2 @@
 Ultima Aula que assisti foi : 
-Aula 12 - Operador Spread, aprendendo sobre o espalhador em JavaScript
+Aula 17  
