@@ -1,27 +1,16 @@
-let n = 10;
-n++ //(pos encremento) nesse caso estamos encrementando o valor em + (1)
-console.log(n);
-
-let x = 10;
-console.log(++x)   //  pré encremento (nesse caso também encrementando o valor em + (1)
-
-console.log(x) // Aque o Resultado é 11 pois ele ja tinha feito o encremento de (1) na operação anterior. 
+let n1 = 30;
+let n2 = 14;
+//let res = n1 & n2; // operador e (binario)
+//let res = n1 ! n2; // operador ou (binário) 
+//let res = n1 ^ n2  // Operador  sor (binário)
+//console.log(res);
 
 
-// operações de atribuição
-
-
-let y = 10
-y+=10
-console.log(y)
-
-let xy = -10;
-xy +=-1
-console.log(xy)
-
-// operação de concatenação
-
-let casa = "10"
-let apartamento  = "20"
-// ele esta juntado os valores ao invés de juntar.
-console.log(casa+apartamento)
+// >> bitwise que desloca para esquerda 
+// << bitwise que desloca para a direita 
+let res1 = n1 << 1 // significa que estou deslocando um bit para a esquerda o valor de bit pode ser alterado ex (let res1 = n1 << 2 )
+// Quando fazemos a operação do Bitwisew a esquerda estou dobrando o meu valor 
+console.log(res1)
+let res2 = n1 >> 1 // significa que estou deslocando um bit para a direita valor de bit pode ser alterado ex (let res1 = n1 >> 2 )
+// Quando fazemos a operação do Bitwisew a direita estou reduzindo  o meu valor a sua metade ex (30) res = (15)  
+console.log(res2)

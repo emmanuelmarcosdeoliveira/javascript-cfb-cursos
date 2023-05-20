@@ -1,16 +1,21 @@
-// TABELA VERDADE 
-let n1,n2,n3,n4;
-n1 = 10;
-n2 = 5;
-n3 = 15;
-n4 = 02;
+let num1 = 10;
+let num2 = "10"
+let num3 = 08;
 
-// console.log((n1>n2) && (n1>n3))
-// console.log((n1>n2) || (n1>n3))
-// console.log(!(n1>n2) || (n1>n3))
+console.log(num1 === num2);
 
-if( !(n1>n2) && (n3>n4)){
-   console.log("Verdadeiro")
-}else {
-   console.log("Falso")
-}
+// uma forma de verificar aonde nossa aplicação está rodando 
+// esse código não roda no Node.js tem que ser usada no navegador!
+if(navigator.userAgent.match(/Android/i)
+|| navigator.userAgent.match(/WebOs/i)
+|| navigator.userAgent.match(/iPhone|iPad|iPod/i)
+|| navigator.userAgent.match(/BlackBerry/i)
+|| navigator.userAgent.match(/Windows Phone/i)
+|| navigator.userAgent.match(/Opera Mini/i)
+|| navigator.userAgent.match(/IEMobile/i)
+){
+   console.log("Celular")
+
+   }else {
+      console.log("PC")
+   }

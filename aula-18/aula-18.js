@@ -1,14 +1,18 @@
-let n = 10;
-while (n < 10) {
-  console.log("CFB Cursos");
-  n++;
-}
-console.log("fim do Programa");
-// acima temos o while aonde ele só roda o bloco quando a condição for verdadeira e nesse caso como ela é falsa ela já vai para o final do programa.
+// ESSE LOOP WHILLE É USADO QUANDO NÃO TEMOS CERTEZA DA QUANTIDADES DE VEZES QUE QUEREMS USA-LO.
+// ELE IRA DEPENDER DE UMA CONDOCIONAL
+//TEMOS QUE TER ATENÇÃO AS CONDIÇÕES PARA QUE ELE NÃO SE TORNE UM LOOP INFINITO.
+// Ele executa funções enquato
+
+// let n = 0;
+// while (n < 10) {
+//   console.log(n);
+//   n++;
+// }
+
 let x = 10;
-do {
-  console.log("CFB Cursos");
-  x++;
-} while (x < 10);
-console.log("Fim do Programa");
-// Acima temos o do while aonde ele roda primeiro o bloco para depois efetuar a condição.
+let fat = 1;
+while (x >= 1) {
+  fat *= x;
+  x--;
+}
+console.log(fat);

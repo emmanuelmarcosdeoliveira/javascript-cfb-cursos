@@ -1,44 +1,25 @@
-let num20,num21 = 10
-console.log(num20)// Aparece Undefined pois a variável não foi definida.
-console.log(num21)// Aparece 10 
+'user strict'
 
- let num22,num23,num24 
- num22=num23=num24=10
- console.log(num22)
- console.log(num23)
- console.log(num24)
-
-
-let num1=0,num2=0,res=0;
-num1 =10 , num2 = 10
-
-res =num1 + num2*2 ;
-console.log(res)
-console.log(num2-num1)
-
-let num3, num4
-num3 = 2;
-num4 = 15;
-res = num4%num3; // aqui é o resto da divisão. --> REsultado --> 1
-console.log(res)
-
-let num5 =3;
-num5++ // Operador de incremento ele adiciona + (1) a minha variavel. 
-num5++
-num5++ 
-console.log(num5)
+function teste(){
+   let nome = "Bruno"
+   if(true){
+      console.log("dentro do IF do teste teste:" + nome)
+   }
+   console.log("dentro do teste:" + nome)
+}
 
 
-let num6 =3;
-num5-- // Operador de decremento ele subtrai - (1) da minha variavel. 
-num5--
-num5-- 
-console.log(num5)
+teste()
+console.log("fora de teste:" + nome)
+// Estamos usando o modo Estrito!
+// Quanto mais variáveis eu criar mais memória meu programa vai consumir!
+// o Var tenha algumas falhas e isso pode ser um rpoblema dentro do nosso código!
+// Ele pode ser acessada mesmo ela não não pertecendo ao escopo global.
+// O let só acessada dentro do seu escopo para cima.
+function curso(){
+   const curso = "JavaScript"
+   console.log(curso)
+}
+curso()
 
-let num7= 10
-num7+=1 // acrecenta (1) ao valor de num7 
-console.log(num7) 
-
-let num8= 10
-num8-=1 // acrecenta (1) ao valor de num7 
-console.log(num8) 
+// Ao declarar uma variavel const ela não poderá ser mudada dentro do nosso programa.

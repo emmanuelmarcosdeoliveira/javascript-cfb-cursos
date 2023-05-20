@@ -1,21 +1,13 @@
 let num1 = 10;
-let num2 = "10"
-let num3 = 08;
+let num2 = 5;
+let num3 = 10;
 
-console.log(num1 === num2);
+// (!) == Operador not (negação) 
 
-// uma forma de verificar aonde nossa aplicação está rodando 
-// esse código não roda no Node.js tem que ser usada no navegador!
-if(navigator.userAgent.match(/Android/i)
-|| navigator.userAgent.match(/WebOs/i)
-|| navigator.userAgent.match(/iPhone|iPad|iPod/i)
-|| navigator.userAgent.match(/BlackBerry/i)
-|| navigator.userAgent.match(/Windows Phone/i)
-|| navigator.userAgent.match(/Opera Mini/i)
-|| navigator.userAgent.match(/IEMobile/i)
-){
-   console.log("Celular")
-
-   }else {
-      console.log("PC")
-   }
+console.log(num1 > num2);// Maior.
+console.log(num1 >= num2);// Maior ou igual.
+console.log(num1 < num2);// Menor.
+console.log(num1 <= num2);// Menor igual.
+console.log(num1 != num2);// Diferente ou negação
+console.log(!(num1 == num3));// é igual ?
+console.log(!(num1 == num3));// negação pois tem o (!) no começo 

@@ -1,26 +1,21 @@
-// Lop FOR as repetições do loop são chamadas de interações.
+//  Switch Case ele avalia uma expressão, e de acordo com o resultado dessa expressão ele compara com os (cases que estão programados) caso seu resultado esteja igual a alguns do seu case ele executa um comando, caso contrário ele cai para o bloco default.
 
-// lop definidos  - qunado sabemos a quantodade de interações que ele tem que fazer
+let colocacao  = 04
+switch(colocacao){
+   case 1:
+      console.log("Primeiro Lugar")
+      break
 
-// lop indefinidos - quando não sabemos a quantidade de interações que ele tem que fazer.
-
-// Nessa Aula iremos aprender o loop definidos chamados de -->  for (para)
-/*Exemplo:  (inicialização ou contador; condição ; controle ) {
--------------------------------------------------------------
--------------------------------------------------------------
+   case 2:
+      console.log("Segundo Lugar")
+      break
+   case 3:
+      console.log("Teceiro Lugar")
+      break
+   case 4: case 5: case 6:
+         console.log("Premio de participação")
+         break
+default:
+   console.log("Não Subiu ao podio")
+   break
 }
-*/
-
-console.log("inicio do Programa");
-
-for (let i = 0; i < 100; i++) {
-  //Condição do for (enquanto ela for verdadeira ele executa o for se for falsa ele sai do bloco.)
- // console.log(`${i} - CFB Cursos`);
-  if (i % 2 == 0) {
-    console.log(i + " e par");
-  } else {
-    console.log(i + " é impar");
-  }
-}
-
-console.log("Fim do Programa");

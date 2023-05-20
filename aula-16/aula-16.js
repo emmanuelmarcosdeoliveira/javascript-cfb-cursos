@@ -1,21 +1,26 @@
-// FOR IN e FOR OFF.
-let num = [10, 20, 30, 40, 50];
-const objs = document.getElementsByTagName("div");
-// FOR IN e FOR OFF
-// Esses dois tipos são mais utlizados para  para percorrer coleções. (para verificar valores dentro de um Array)
+// Lop FOR as repetições do loop são chamadas de interações.
 
-// Modelo de FOR tradicional;
-for (let i = 0; i < num.length; i++) {
-  console.log(num[i]);
+// lop definidos  - qunado sabemos a quantodade de interações que ele tem que fazer
+
+// lop indefinidos - quando não sabemos a quantidade de interações que ele tem que fazer.
+
+// Nessa Aula iremos aprender o loop definidos chamados de -->  for (para)
+/*Exemplo:  (inicialização ou contador; condição ; controle ) {
+-------------------------------------------------------------
+-------------------------------------------------------------
 }
-// FOR OFF
-// RETORNAS OS ELEMNTOS QUE TEMOS DENTRO DA CONDIÇÃO
-for (o of objs) {
-  console.log((o.innerHTML = "Cursos"));
+*/
+
+console.log("inicio do Programa");
+
+for (let i = 0; i < 100; i++) {
+  //Condição do for (enquanto ela for verdadeira ele executa o for se for falsa ele sai do bloco.)
+ // console.log(`${i} - CFB Cursos`);
+  if (i % 2 == 0) {
+    console.log(i + " e par");
+  } else {
+    console.log(i + " é impar");
+  }
 }
-// FOR IN
-// RETORNA OS INDICES DENTRO DESSA COLEÇÃO
-for (o in objs) {
-  console.log(objs[o].innerHTML);
-  console.log(o);
-}
+
+console.log("Fim do Programa");

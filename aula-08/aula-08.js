@@ -1,16 +1,16 @@
-let n1 = 30;
-let n2 = 14;
-//let res = n1 & n2; // operador e (binario)
-//let res = n1 ! n2; // operador ou (binário) 
-//let res = n1 ^ n2  // Operador  sor (binário)
-//console.log(res);
+// TABELA VERDADE 
+let n1,n2,n3,n4;
+n1 = 10;
+n2 = 5;
+n3 = 15;
+n4 = 02;
 
+// console.log((n1>n2) && (n1>n3))
+// console.log((n1>n2) || (n1>n3))
+// console.log(!(n1>n2) || (n1>n3))
 
-// >> bitwise que desloca para esquerda 
-// << bitwise que desloca para a direita 
-let res1 = n1 << 1 // significa que estou deslocando um bit para a esquerda o valor de bit pode ser alterado ex (let res1 = n1 << 2 )
-// Quando fazemos a operação do Bitwisew a esquerda estou dobrando o meu valor 
-console.log(res1)
-let res2 = n1 >> 1 // significa que estou deslocando um bit para a direita valor de bit pode ser alterado ex (let res1 = n1 >> 2 )
-// Quando fazemos a operação do Bitwisew a direita estou reduzindo  o meu valor a sua metade ex (30) res = (15)  
-console.log(res2)
+if( !(n1>n2) && (n3>n4)){
+   console.log("Verdadeiro")
+}else {
+   console.log("Falso")
+}
